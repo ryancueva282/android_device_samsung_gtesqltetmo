@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICE=gtesqltespr
+export DEVICE=gtesltetmo
 export DEVICE_COMMON=gte-common
 export VENDOR=samsung
 
