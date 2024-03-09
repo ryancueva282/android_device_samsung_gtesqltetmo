@@ -1,17 +1,14 @@
 # Inherit from common
 include device/samsung/gte-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gtesqltespr
+LOCAL_PATH := device/samsung/gtesqltetmo
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gtesqltespr,samsung_sm_t377p,t377p
+TARGET_OTA_ASSERT_DEVICE := gtesqltetmo,samsung_sm_t377t,t377t
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gtes_spr_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := gtesltetmo_defconfig
 
 # Partition sizes
-BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2516582400
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 12767424512
-
-# RIL
-BOARD_MODEM_TYPE := xmm7260
+BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2929687500
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 27664000000
