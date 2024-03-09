@@ -1,6 +1,6 @@
-# android_device_samsung_gtesqltetmo
+# android_device_samsung_gtesltetmo
 
-## Device tree for Samsung Galaxy Tab (E) SM-T377T [gtesqltetmo]
+## Device tree for Samsung Galaxy Tab (E) SM-T377T [gtesltetmo]
 
 Basic   | Spec Sheet
 -------:|:-------------------------
