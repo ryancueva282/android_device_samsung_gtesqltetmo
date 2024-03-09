@@ -1,6 +1,4 @@
 # CABL
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.qualcomm.cabl=0
 
 # RAM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -13,9 +11,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Telephony
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.telephony.default_cdma_sub=0 \
 	ro.telephony.default_network=8 \
-	telephony.lteOnCdmaDevice=1
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -23,8 +19,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.product.model=SM-T377P \
-	ro.product.device=gtesqltespr
+	ro.product.model=SM-T377T \
+	ro.product.device=gtesltetmo
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
