@@ -7,7 +7,7 @@ LOCAL_PATH := device/samsung/gtesltetmo
 TARGET_OTA_ASSERT_DEVICE := gtesltetmo,samsung_sm_t377t,t377t
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := gtesltetmo_defconfig
+TARGET_KERNEL_CONFIG := gtesltetmo_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2929687500
